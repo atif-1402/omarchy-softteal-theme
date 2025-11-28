@@ -10,7 +10,7 @@
   OR
   
   - Open Omarchy Menu (Super + Alt + Space)
-  - Go to Install > Style > Theme and paste the the below git link ⬇️
+  - Go to Install > Style > Theme and paste the the below git repo link ⬇️
     
    ```bash
    https://github.com/atif-1402/omarchy-softteal-theme.git
