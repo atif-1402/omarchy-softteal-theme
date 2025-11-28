@@ -1,0 +1,71 @@
+# Main background, warm and soft like the room shadows
+theme[main_bg]="#1c1a18"
+
+# Main text — soft warm white, not pure white
+theme[main_fg]="#f5f1e8"
+
+# Title color — muted warm grey-beige
+theme[title]="#c3bcae"
+
+# Highlight for shortcuts — soft sky-grey like the window light
+theme[hi_fg]="#d0d6db"
+
+# Selected process background — warm desaturated brown-grey
+theme[selected_bg]="#7d766e"
+
+# Selected foreground — keep readable
+theme[selected_fg]="#f5f1e8"
+
+# Inactive text — subtle warm grey
+theme[inactive_fg]="#8d867e"
+
+# Process misc — matching title color
+theme[proc_misc]="#c3bcae"
+
+# Box + divider colors — gentle neutral greys from the walls
+theme[cpu_box]="#a9a9a0"
+theme[mem_box]="#a9a9a0"
+theme[net_box]="#a9a9a0"
+theme[proc_box]="#a9a9a0"
+theme[div_line]="#7d766e"
+
+# ---- Gradients ----
+# Temp → soft cool greys (city buildings)
+theme[temp_start]="#d0d6db"
+theme[temp_mid]="#b9c1c8"
+theme[temp_end]="#a5adb5"
+
+# CPU → same cool gradient
+theme[cpu_start]="#d0d6db"
+theme[cpu_mid]="#b9c1c8"
+theme[cpu_end]="#a5adb5"
+
+# Free → warm sunlight beige
+theme[free_start]="#eae2c8"
+theme[free_mid]="#f6edd4"
+theme[free_end]="#f6edd4"
+
+# Cached → very light warm beige
+theme[cached_start]="#f6edd4"
+theme[cached_mid]="#f6edd4"
+theme[cached_end]="#f6edd4"
+
+# Available → slightly cool neutral
+theme[available_start]="#d0d6db"
+theme[available_mid]="#d0d6db"
+theme[available_end]="#d0d6db"
+
+# Used → mid neutral grey
+theme[used_start]="#a9a9a0"
+theme[used_mid]="#a9a9a0"
+theme[used_end]="#a9a9a0"
+
+# Download → sunlight beige → cool grey mix
+theme[download_start]="#f6edd4"
+theme[download_mid]="#d0d6db"
+theme[download_end]="#b9c1c8"
+
+# Upload → same direction, slightly cooler end
+theme[upload_start]="#f6edd4"
+theme[upload_mid]="#d0d6db"
+theme[upload_end]="#b9c1c8"

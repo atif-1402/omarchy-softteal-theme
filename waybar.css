@@ -1,0 +1,52 @@
+@define-color background   #1A1815;   /* matches Hypr background */
+@define-color base-bg      #1F1D19;   /* slightly lighter variant */
+@define-color foreground   #ffffff;   /* clean readable text */
+
+@define-color accent       #558D83;   /* your active border color */
+@define-color hover        #A8A39E;   /* soft warm hover, not neon */
+@define-color selected     #b5bbbf;   /* subtle highlight, matches cava/btop */
+
+@define-color warning      #e5c07b;   /* warm amber */
+@define-color critical     #e06c75;   /* soft red — consistent */
+
+@define-color border       rgba(85, 141, 131, 0.9); /* accent but transparent */
+#clock,
+#battery,
+#pulseaudio,
+#network,
+#tray {
+    color: @foreground;
+}
+
+#battery.charging, 
+#battery.plugged {
+    color: @accent;
+}
+
+#battery.warning:not(.charging) {
+    color: @warning;
+}
+
+#battery.critical:not(.charging) {
+    background-color: @critical;
+    color: @background;
+    border-radius: 8px;
+}
+
+#pulseaudio.muted {
+    color: @critical;
+}
+
+#network.disconnected {
+    color: @critical;
+}
+
+tooltip {
+    background-color: @background;
+    border: 2px solid @accent;
+    border-radius: 8px;
+}
+
+tooltip label {
+    color: @foreground;
+}
